@@ -2,8 +2,8 @@
 
 int main() {
     //Dados das cartas. Já cadastradas.
-    char nome1[20] = "SABARA";
-    char nome2[20] = "OURO_PRETO";
+    char nome1[20] = "BRASIL";
+    char nome2[20] = "VENEZUELA";
     int populacao1 = 150000, populacao2 = 120000;
     float area1 = 300.0, area2 = 250.0;
     float pib1 = 6.28, pib2 = 5.50;
@@ -15,6 +15,7 @@ int main() {
 
     int opcao;
 
+    //Atributos para o usuário escolher.
     printf("\n **** Segue abaixo os atributos para comparação **** \n");
     printf("1 - População\n");
     printf("2 - Área\n");
